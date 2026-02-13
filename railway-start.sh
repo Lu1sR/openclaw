@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Railway injects PORT; default if missing (local runs)
+# Rasilway injects PORT; default if missing (local runs)
 PORT="${PORT:-18789}"
 
 # Persist everything on the Railway volume
